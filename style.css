@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: #021a50ea;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    
+}
+
+.Form {
+    outline: none;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #0f7594;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+    cursor: pointer;
+}
+
+#hoverBox, #secretBox, #nextImg {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 50px;
+    background-color: lightgray;
+    margin-top: 10px; 
+    margin-left: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.accordion-btn {
+    background-color: #0f7594;
+    color: white;
+    padding: none;
+    margin: 5px 0;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.accordion-content {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+  /* Animation */
+.bounce {
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+#galleryImg {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+#animatedBtn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#colorBtn {
+    border: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+#myButton {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+}
